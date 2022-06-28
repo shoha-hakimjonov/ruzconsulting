@@ -2448,7 +2448,7 @@
         }
 
         .info .btn[data-v-4ff4177a]:hover {
-            background: rgba(204, 139, 78, .7)
+            background: #0d47a1;
         }
 
         .info .instagram[data-v-4ff4177a] {
@@ -3497,7 +3497,7 @@
         }
 
         .help .btn[data-v-6a87e8fa]:hover {
-            background: rgba(204, 139, 78, .7)
+            background: #0d47a1;
         }
 
         @media screen and (max-width:1700px) {
