@@ -927,7 +927,7 @@
         }
 
         .blk-block-tb {
-            background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABkAAAAGcAgMAAAD8OYTuAAAADFBMVEUYCgtHcEwYCgsYCgu9hjMoAAAABHRSTlPmALZwoh0AfAAAAZZJREFUeNrt2bENwlAQBUGXRgkEHHaALEogJKQ0SnEpZJRgbTBTwq0svS8vCwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMCp5lxPF28Fubl4K8hcnLwVxCcSCzIfN28Fubp5K8i4eSyITyQW5O7orSCWby2I5RsLYvnWgmzO3gpi+daCWL6xIJZvLIjfIrUglm8syHxdvhXE8o0F8TisBbF8Y0FWp28FsXxrQTwOY0H8FqkFeTh+K4jlWwvicRgLYvnGgszL+VtBLN9YEI/DWhDLNxbEb5FaEMs3FmT1OGwFsXxrQTwOY0Es31qQXYJWEMu3FsTjMBbEb5FakLcIrSCWbyyIx2EtiN8isSBzyNAKYvnGgli+tSB+i8SC+C0SC2L5/v0AIGSopKG27IgAAAAASUVORK5CYII=);
+            background-image: url('images/tb-what.png');
             background-size: 100% 100%;
             color: #fff;
             background-color: #fff
@@ -975,7 +975,7 @@
             right: 102%;
             height: 46px;
             width: 3000px;
-            background-color: #cc9557
+            background-color: #0d47a1
         }
 
         .what__title_large {
@@ -1052,7 +1052,7 @@
         .what__item:after {
             width: 13px;
             height: 12px;
-            background-color: #cc9557;
+            background-color: white;
             top: 28px;
             left: -18px;
             -webkit-transition: all .3s;
@@ -1661,7 +1661,7 @@
             overflow: hidden;
             background-color: #ececec;
             background-image: -webkit-gradient(linear, left top, left bottom, from(#4e3f42), to(#000));
-            background-image: linear-gradient(180deg, #4e3f42, #000);
+            background-image: linear-gradient(180deg, #0d47a1, #000000);
             background-size: cover
         }
 
@@ -1701,7 +1701,7 @@
             margin: 40px auto;
             font-family: muller-b, serif;
             text-align: center;
-            color: #cc9557
+            color: white;
         }
 
         .problems .questions__list[data-v-8a515bfa] {
@@ -1795,7 +1795,7 @@
         }
 
         .work__title[data-v-8a515bfa]:after {
-            background-color: #cc9557;
+            background-color: #0d47a1;
             left: -2px;
             top: 70px;
             height: 300px;
@@ -1805,7 +1805,7 @@
         .work__block[data-v-8a515bfa] {
             position: relative;
             padding: 40px 0;
-            background-image: url(_nuxt/img/9dd7eb2.png);
+            background-image: url('images/steps.png');
             background-size: 100% 100%;
             color: #fff;
             z-index: 2
@@ -1884,7 +1884,7 @@
             font-size: 16px;
             font-family: muller-ultra, serif;
             white-space: nowrap;
-            color: #cc9557
+            color: white
         }
 
         .work__title-wrap svg[data-v-8a515bfa] {
@@ -2196,8 +2196,9 @@
             height: 100vh;
             min-height: 650px;
             color: #fff;
-            background-image: url('images/tb-bg.jpg');
-            object-fit: cover;
+            background-image: url('images/new-bg.png');
+            object-fit:cover;
+            background-position: center;
         }
 
         .head.blog-header[data-v-4ff4177a] {
@@ -2228,7 +2229,8 @@
 
         header[data-v-4ff4177a] {
             padding: 25px 35px;
-            z-index: 100 !important
+            z-index: 100 !important;
+            align-items: center;
         }
 
         .parallax[data-v-4ff4177a] {
@@ -2982,7 +2984,7 @@
         .about__title[data-v-78221eef]:after {
             width: 47px;
             height: 257px;
-            background-color: #cc9557;
+            background-color: #0d47a1;
             top: 65px;
             left: 1px
         }
@@ -3124,7 +3126,8 @@
             margin-bottom: -143px;
             background-size: cover;
             background-position: 50%;
-            z-index: 1
+            z-index: 1;
+            
         }
 
         .why__USA[data-v-6f2f2796] {
@@ -3399,7 +3402,8 @@
             top: 269px;
             left: calc(50vw + 150px);
             height: auto;
-            width: calc(50vw - 150px)
+            width: calc(50vw - 150px);
+            
         }
 
         .help__svg_1[data-v-6a87e8fa] {
@@ -3463,7 +3467,7 @@
         }
 
         .help-tb .help__container[data-v-6a87e8fa] {
-            background-image: url(_nuxt/img/440e94f.png)
+            background-image: url('images/tb-need.png')
         }
 
         .help__wrap[data-v-6a87e8fa] {
@@ -3476,7 +3480,7 @@
             line-height: 50px;
             padding-left: 20px;
             color: #fff;
-            border-left: 2px solid #cc9557;
+            border-left: 2px solid white;
             margin-bottom: 60px
         }
 
