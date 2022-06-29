@@ -1901,8 +1901,8 @@
 
         .work__title svg[data-v-8a515bfa] {
             top: 55px;
-            left: 295px;
-            bottom: 0;
+            left: 272px;
+            bottom: 100px;
             right: 30px;
             width: calc(100% - 307px);
             height: 180px
@@ -2090,7 +2090,7 @@
             .work__title-wrap svg[data-v-8a515bfa] {
                 right: 30px;
                 height: 54px;
-                top: -2px;
+                top: 22px;
                 width: calc(100% - 174px)
             }
 
@@ -2516,7 +2516,7 @@
 
         .title-wrap-tb[data-v-4ff4177a] {
             position: absolute;
-            bottom: 25%;
+            bottom: 40%;
             text-align: center;
             text-shadow: 0 0 60px #000
         }
@@ -2832,6 +2832,19 @@
                 background-size: cover;
                 background-position: 70% bottom
             }
+            .head[data-v-4ff4177a] {
+                object-fit: contain;
+                height: auto;
+                width: 100vw;
+                color: #fff;
+                background-image: url(images/new-bg-mobile.jpg);   
+                padding-bottom: 0;
+                margin-bottom: 0;
+            }
+            
+            #problems-list {
+                opacity: .2;
+            }
 
             .parallax .avto[data-v-4ff4177a],
             .parallax .bg[data-v-4ff4177a] {
@@ -2927,7 +2940,9 @@
             }
 
             header[data-v-4ff4177a] {
-                padding: 15px
+                padding: 15px;
+                padding-top: 20px;
+                padding-bottom: 20px;
             }
 
             .title-wrap[data-v-4ff4177a] {
@@ -2954,7 +2969,7 @@
             }
 
             .logo img[data-v-4ff4177a] {
-                width: 33px
+                width: 80px;
             }
         }
 
@@ -2983,7 +2998,7 @@
 
         .about__title[data-v-78221eef]:after {
             width: 47px;
-            height: 257px;
+            height: 306px;
             background-color: #0d47a1;
             top: 65px;
             left: 1px
@@ -3092,7 +3107,7 @@
             .about__title[data-v-78221eef]:after {
                 width: 7px;
                 height: 590px;
-                background-color: #cc9557;
+                background-color: #0d47a1;
                 top: 65px;
                 left: 1px
             }
@@ -3345,6 +3360,11 @@
             .why__title .svg-animate[data-v-6f2f2796] {
                 display: block
             }
+            .why__title .why__sub-title svg[data-v-6f2f2796] {
+                right: 103%;
+                width: 600px;
+                top: 10px
+            }
         }
 
         @media screen and (max-width:575px) {
@@ -3354,7 +3374,8 @@
 
             .why__title-main[data-v-6f2f2796] {
                 font-size: 25px;
-                line-height: 20px
+                line-height: 20px;
+                margin-left: 20px;
             }
 
             .why__sub-title[data-v-6f2f2796] {
@@ -3602,7 +3623,7 @@
             }
 
             .help .btn[data-v-6a87e8fa] {
-                font-size: 14px;
+                font-size: 20px;
                 border-width: 1px;
                 padding: 5px 8px
             }
@@ -3656,7 +3677,8 @@
 
             .help__title[data-v-6a87e8fa] {
                 margin-bottom: 25px;
-                line-height: 32px
+                line-height: 32px;
+                font-size: 18px;
             }
 
             .help>img[data-v-6a87e8fa] {
@@ -3803,8 +3825,8 @@
 
             .footer__item[data-v-6ad802b4] {
                 width: 240px;
-                -webkit-box-pack: center;
-                justify-content: center
+                -webkit-box-pack: start;
+                justify-content: start
             }
 
             .footer__bottom[data-v-6ad802b4] {
@@ -3824,7 +3846,13 @@
             }
 
             .think__descr[data-v-6ad802b4] {
-                font-size: 14px
+                font-size: 24px;
+                font-weight: bold;
+            }
+            .footer__logo[data-v-6ad802b4] {
+                top: calc(75% + 59px);
+                left: 5px;
+                font-size: 10px;
             }
         }
 
@@ -3843,3 +3871,72 @@
                 bottom: calc(100% + 10px)
             }
         }
+
+        /*adaptive css*/
+        @media only screen and (max-width: 768px) {
+            /* For mobile phones: */
+            #header-img {
+               width: 120px;
+               height: 120px;
+            }
+            .work__title svg[data-v-8a515bfa] {
+                top: 20px;
+                left: 119px;
+                bottom: 100px;
+                right: 30px;
+                width: calc(100% - 307px);
+                height: 180px
+            }
+          }
+          /* Style the navigation menu */
+.topnav {
+    overflow: hidden;
+    background-color: #0d47a1;
+    position: relative;
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  /* Style navigation menu links */
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .topnav a:hover {
+    background-color: white;
+    color: #0d47a1;
+  }
+  
+  /* Style the active link (or home/logo) */
+  .active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+  #navigation-burger {
+    position: absolute;
+    bottom: 0;
+    top: 68%;
+    height: 215px;
+    right: 0;
+    left: 67%;
+    text-align: center;
+    text-shadow: 0 0 60px #000;
+  }

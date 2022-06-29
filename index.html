@@ -36,6 +36,7 @@
     <link rel="preload" href="nuxt/d69b1edeb876df78f065.js" as="script">
     <link rel="preload" href="nuxt/2ce922b4a979600d76f7.js" as="script">
     <link rel="preload" href="nuxt/8037cd48d461bac45bd3.js" as="script">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="main.css">
 </head>
 
@@ -55,13 +56,14 @@
                                         data-v-4ff4177a> <img data-depth="0.15" alt="front image" data-v-4ff4177a></div>
                             </div>
                         </div>
-                        <header class="flex jc-sb w100" data-v-4ff4177a><a href="/"
+                        <header class="flex jc-sb w100" data-v-4ff4177a><a href="/" id="header-logo"
                                 class="logo block nuxt-link-exact-active nuxt-link-active" data-v-4ff4177a><img
                                     src="images/logo.png" alt="logo" height="60" data-v-4ff4177a></a>
                             <div class="flex" data-v-4ff4177a>
-                                <!-- <nav data-v-4ff4177a>
+
+                                <!-- <nav class="topnav" data-v-4ff4177a>
                                     <div class="nav__close" data-v-4ff4177a></div>
-                                    <ul class="flex ai-c nav" data-v-4ff4177a>
+                                    <ul id="myLinks" class="flex ai-c nav" data-v-4ff4177a>
                                         <li class="c-after pos-r " data-v-4ff4177a><a href="blog.html"
                                                 class="block pos-r blog-link" data-v-4ff4177a>
                                                 <p class="nav__link flex" data-v-4ff4177a>Блог</p>
@@ -109,48 +111,26 @@
                                             </ul>
                                         </li>
                                     </ul>
+                                   
                                 </nav> -->
+
+
                                 <div class="flex ai-fs info" data-v-4ff4177a>
-                                     <div class="cons" data-v-4ff4177a><a href="#about" class="block pos-r btn"
-                                        style="margin-right: 0px" data-v-4ff4177a>
-                                        О нас 
-                                     </a></div>
+                                    <div class="cons" data-v-4ff4177a><a href="#about" class="block pos-r btn"
+                                            style="margin-right: 0px" data-v-4ff4177a>
+                                            О нас
+                                        </a></div>
                                     <div class="cons" data-v-4ff4177a><a href="#benefits" class="block pos-r btn"
-                                        style="margin-right: 0px" data-v-4ff4177a>
-                                        Преимущества
-                                    </a></div>
+                                            style="margin-right: 0px" data-v-4ff4177a>
+                                            Преимущества
+                                        </a></div>
                                     <div class="cons" data-v-4ff4177a><a href="#services" class="block pos-r btn"
                                             style="margin-right: 0px" data-v-4ff4177a>
                                             Услуги
-                                    </a></div>
+                                        </a></div>
                                     <div class="cons" data-v-4ff4177a><a href="#contacts" class="block btn"
-                                            data-v-4ff4177a>Контакты</a></div> 
-                                            <!-- <a
-                                        href="https://instagram.com/" title="instagram" rel="nofollow"
-                                        class="block instagram" data-v-4ff4177a><svg viewBox="0 0 512 512" width="20"
-                                            height="20" data-v-4ff4177a>
-                                            <g data-v-4ff4177a>
-                                                <g data-v-4ff4177a>
-                                                    <path d="M363.273,0H148.728C66.719,0,0,66.719,0,148.728v214.544C0,445.281,66.719,512,148.728,512h214.544
-                              C445.281,512,512,445.281,512,363.273V148.728C512,66.719,445.281,0,363.273,0z M472,363.272C472,423.225,423.225,472,363.273,472
-                              H148.728C88.775,472,40,423.225,40,363.273V148.728C40,88.775,88.775,40,148.728,40h214.544C423.225,40,472,88.775,472,148.728
-                              V363.272z" fill="#ffffff" data-v-4ff4177a></path>
-                                                </g>
-                                            </g>
-                                            <g data-v-4ff4177a>
-                                                <g data-v-4ff4177a>
-                                                    <path d="M256,118c-76.094,0-138,61.906-138,138s61.906,138,138,138s138-61.906,138-138S332.094,118,256,118z M256,354
-                              c-54.037,0-98-43.963-98-98s43.963-98,98-98s98,43.963,98,98S310.037,354,256,354z"
-                                                        fill="#ffffff" data-v-4ff4177a></path>
-                                                </g>
-                                            </g>
-                                            <g data-v-4ff4177a>
-                                                <g data-v-4ff4177a>
-                                                    <circle cx="396" cy="116" r="20" fill="#ffffff" data-v-4ff4177a>
-                                                    </circle>
-                                                </g>
-                                            </g>
-                                        </svg></a> -->
+                                            data-v-4ff4177a>Контакты</a></div>
+
                                     <ul class="lang pos-r" data-v-4ff4177a>
                                         <li data-v-4ff4177a><a href="#" data-v-4ff4177a>Ru</a>
                                             <ul class="lang__dropdown pos-a" data-v-4ff4177a>
@@ -158,6 +138,8 @@
                                             </ul>
                                         </li>
                                     </ul>
+
+
                                     <div class="info__tel pos-r" data-v-4ff4177a><svg viewBox="0 0 27.442 27.442"
                                             width="20" height="20" class="pos-a" data-v-4ff4177a>
                                             <path fill="#ffffff" d="M19.494,0H7.948C6.843,0,5.951,0.896,5.951,1.999v23.446c0,1.102,0.892,1.997,1.997,1.997h11.546
@@ -170,10 +152,25 @@
                                                 class="block" data-v-4ff4177a>+992 550 00 25 00
                                             </a></div>
                                     </div>
-                                </div> <button title="burger" class="burger" data-v-4ff4177a><span class="burger-top"
-                                        data-v-4ff4177a></span> <span class="burger-middle" data-v-4ff4177a></span>
-                                    <span class="burger-bottom" data-v-4ff4177a></span></button>
+                                </div>
+                                <a href="javascript:void(0);" onclick="myFunction()" title="burger"
+                                class="burger" data-v-4ff4177a><span class="burger-top" data-v-4ff4177a></span>
+                                <span class="burger-middle" data-v-4ff4177a></span>
+                                <span class="burger-bottom" data-v-4ff4177a></span></a>
+                                
                             </div>
+                            <div id="navigation-burger" class="flex jc-sb w100">
+                                <div class="topnav"> 
+                                    <!-- Navigation links (hidden by default) -->
+                                    <div id="myLinks">
+                                      <a href="#about">О нас</a>
+                                      <a href="#benefits">Преимущества</a>
+                                      <a href="#services">Услуги</a>
+                                      <a href="#contacts">Контакты</a>
+                                    </div>        
+                                </div>
+                            </div>
+
                         </header>
                         <div class="title-wrap-tb w100" data-v-4ff4177a>
                             <h1 data-v-4ff4177a>Таможенно-брокерские услуги</h1>
@@ -209,7 +206,7 @@
                                 </div>
                                 <div class="questions" data-v-8a515bfa>
                                     <div data-depth="0.05" class="questions__list-wrap" data-v-8a515bfa>
-                                        <ul class="questions__list" data-v-8a515bfa>
+                                        <ul class="questions__list" id="problems-list" data-v-8a515bfa>
                                             <li data-v-8a515bfa>Протокол о нарушении таможенных правил</li>
                                             <li data-v-8a515bfa>Затраты при простое транспорта
                                             </li>
@@ -255,12 +252,16 @@
                                     </svg>
                                 </div>
                                 <div class="about__description pos-r" data-v-78221eef>
-                                    <p data-v-78221eef>Руз Консалтинг – это команда профессионалов с большим опытом работы в внешнеэкономической деятельности.</p>
-                                    <p data-v-78221eef>Мы знаем все о таможенном оформлении любых товаров и транспортных средств. </p>
-                                    <p data-v-78221eef>За счет большого опыта работы наших специалистов, мы знаем все особенности работы таможенных органов и оперативно отслеживаем изменения законодательств разных стран.</p>
-                                    <p data-v-78221eef>А все для того, чтобы предоставлять качественные услуги вам здесь и сейчас</p>
-                                    <svg width="62" height="250"
-                                        class="svg-animate pos-a" data-v-78221eef>
+                                    <p data-v-78221eef>Руз Консалтинг – это команда профессионалов с большим опытом
+                                        работы в внешнеэкономической деятельности.</p>
+                                    <p data-v-78221eef>Мы знаем все о таможенном оформлении любых товаров и транспортных
+                                        средств. </p>
+                                    <p data-v-78221eef>За счет большого опыта работы наших специалистов, мы знаем все
+                                        особенности работы таможенных органов и оперативно отслеживаем изменения
+                                        законодательств разных стран.</p>
+                                    <p data-v-78221eef>А все для того, чтобы предоставлять качественные услуги вам здесь
+                                        и сейчас</p>
+                                    <svg width="62" height="250" class="svg-animate pos-a" data-v-78221eef>
                                         <line x1="0" y1="5" x2="100%" y2="5" stroke-width="9" stroke="#0d47a1"
                                             data-v-78221eef></line>
                                         <line x1="100%" y1="1" x2="100%" y2="100%" stroke-width="18" stroke="#0d47a1"
@@ -275,8 +276,8 @@
                                 <div class="container" data-v-6f2f2796>
                                     <div class="why__title" data-v-6f2f2796>
                                         <div class="why__title-main left-animate" data-v-6f2f2796>Преимущества
-                                            
-                                            </div>
+
+                                        </div>
                                         <div class="pos-r why__sub-title right-animate" data-v-6f2f2796>работы с нами
                                             <svg height="6" class="svg-animate pos-a animate" data-v-6f2f2796>
                                                 <line x1="0" y1="3" x2="100%" y2="3" stroke-width="6" stroke="white"
@@ -298,15 +299,17 @@
                                                 <div class="why__img-wrap" data-v-6f2f2796><img src="images/why-4.png"
                                                         alt="icon" data-v-6f2f2796></div>
                                             </div>
-                                            <p class="why__about" data-v-6f2f2796>Принимаем оплату услуг после качественного их выполнения
-                                           </p>
+                                            <p class="why__about" data-v-6f2f2796>Принимаем оплату услуг после
+                                                качественного их выполнения
+                                            </p>
                                         </div>
                                         <div class="why__item flex ai-c w33 w50-md w100-sm" data-v-6f2f2796>
                                             <div class="why__img pos-r c-before flex jc-c ai-c" data-v-6f2f2796>
                                                 <div class="why__img-wrap" data-v-6f2f2796><img src="images/why-1.png"
                                                         alt="icon" data-v-6f2f2796></div>
                                             </div>
-                                            <p class="why__about" data-v-6f2f2796>Представляем ваши интересы на всех этапах работы
+                                            <p class="why__about" data-v-6f2f2796>Представляем ваши интересы на всех
+                                                этапах работы
                                             </p>
                                         </div>
                                         <div class="why__item flex ai-c w33 w50-md w100-sm" data-v-6f2f2796>
@@ -322,7 +325,8 @@
                                                 <div class="why__img-wrap" data-v-6f2f2796><img src="images/why-7.png"
                                                         alt="icon" data-v-6f2f2796></div>
                                             </div>
-                                            <p class="why__about" data-v-6f2f2796>Предлагаем выгодные условия постоянным клиентам
+                                            <p class="why__about" data-v-6f2f2796>Предлагаем выгодные условия постоянным
+                                                клиентам
                                             </p>
                                         </div>
                                         <div class="why__item flex ai-c w33 w50-md w100-sm" data-v-6f2f2796>
@@ -367,12 +371,14 @@
                                     <div class="flex fw-w jc-sa" data-v-8a515bfa>
                                         <div class="what__item what__item-tb pos-r c-after w33 w50-md w100-esm"
                                             data-v-8a515bfa>
-                                            <p data-v-8a515bfa>Консультации по любым вопросам таможенного оформления и оптимизации налогообложения
+                                            <p data-v-8a515bfa>Консультации по любым вопросам таможенного оформления и
+                                                оптимизации налогообложения
                                             </p>
                                         </div>
                                         <div class="what__item what__item-tb pos-r c-after w33 w50-md w100-esm"
                                             data-v-8a515bfa>
-                                            <p data-v-8a515bfa>Получением всех необходимых документов от контролирующих органов 
+                                            <p data-v-8a515bfa>Получением всех необходимых документов от контролирующих
+                                                органов
                                             </p>
                                         </div>
                                         <div class="what__item what__item-tb pos-r c-after w33 w50-md w100-esm"
@@ -392,7 +398,8 @@
                                         </div>
                                         <div class="what__item what__item-tb pos-r c-after w33 w50-md w100-esm"
                                             data-v-8a515bfa>
-                                            <p data-v-8a515bfa>Представление ваших интересов на всех этапах таможенного оформления
+                                            <p data-v-8a515bfa>Представление ваших интересов на всех этапах таможенного
+                                                оформления
                                             </p>
                                         </div>
                                     </div>
@@ -428,7 +435,8 @@
                                             Шаг 2
                                         </div>
                                         <p class="work__about" data-v-8a515bfa>
-                                            Анализируем документы и определяем меры тарифного и нетарифного регулирования
+                                            Анализируем документы и определяем меры тарифного и нетарифного
+                                            регулирования
                                         </p>
                                     </div>
                                     <div class="work__item flex w35 w50-md w100-sm pos-r" data-v-8a515bfa>
@@ -457,8 +465,8 @@
                                         data-v-8a515bfa></line>
                                 </svg></div>
                         </section>
-                        <section id="contacts" class="help pos-r help-tb" data-v-6a87e8fa data-v-8a515bfa data-v-8a515bfa><svg
-                                height="80" class="svg-animate pos-a help__svg_1" data-v-6a87e8fa>
+                        <section id="contacts" class="help pos-r help-tb" data-v-6a87e8fa data-v-8a515bfa
+                            data-v-8a515bfa><svg height="80" class="svg-animate pos-a help__svg_1" data-v-6a87e8fa>
                                 <line x1="0" y1="5" x2="100%" y2="5" stroke-width="9" stroke="#0d47a1" data-v-6a87e8fa>
                                 </line>
                                 <line x1="100%" y1="1" x2="100%" y2="100%" stroke-width="100" stroke="#0d47a1"
@@ -467,9 +475,11 @@
                             <div class="help__container pos-r c-after c-before blak-block " data-v-6a87e8fa>
                                 <div class="help__wrap" data-v-6a87e8fa>
                                     <div class="help__title" data-v-6a87e8fa>Нужен надежный таможенный брокер?</div> <a
-                                        href="#" class="inl-block btn t-center" data-v-6a87e8fa>Руз Консалтинг всегда рад помочь!</a>
+                                        href="#" class="inl-block btn t-center" data-v-6a87e8fa>Руз Консалтинг всегда
+                                        рад помочь!</a>
                                 </div>
-                            </div> <img alt="consultation" data-src="images/new-success.jpg" src="images/new-cars.jpg" class="help__img pos-a" data-v-6a87e8fa>
+                            </div> <img alt="consultation" data-src="images/new-success.jpg" src="images/new-cars.jpg"
+                                class="help__img pos-a" data-v-6a87e8fa>
                         </section>
                     </main>
                     <footer class="footer footer--tb pos-r " style="background-image:url(images/footer-tb.png);"
@@ -479,10 +489,11 @@
                         <div class="flex jc-sb footer__top fd-cr-sm ai-c-sm" data-v-6ad802b4>
                             <div class="footer__logo" data-v-6ad802b4>Ⓒ Руз Консалтинг</div>
                             <div class="footer__reestr" data-v-6ad802b4>
+                                <a href="/" class="logo block nuxt-link-exact-active nuxt-link-active"
+                                    data-v-4ff4177a><img src="images/logo.png" alt="logo" height="60"
+                                        data-v-4ff4177a></a>
                                 <p data-v-6ad802b4>ООО “Руз Консалтинг”
-                                    <!-- <br data-v-6ad802b4>
-                                    реестр таможенных брокеров<br data-v-6ad802b4>
-                                    серия АА 000652 -->
+
                                 </p>
                             </div>
                             <div class="footer__item-wrap" data-v-6ad802b4></div>
@@ -509,8 +520,9 @@
         C248.578,302.719,252.297,304,256,304s7.422-1.281,10.406-3.875l51.969-44.531l138.75,158.563C454.188,415.062,451.25,416,448,416
         H64z" data-v-6ad802b4></path>
                                         </svg>
-                                        <div data-v-6ad802b4><a href="mailto:mukaddas.gulbaeva@ruzconsulting.com" class="block"
-                                                data-v-6ad802b4>mukaddas.gulbaeva@ruzconsulting.com</a></div>
+                                        <div data-v-6ad802b4><a href="mailto:mukaddas.gulbaeva@ruzconsulting.com"
+                                                class="block" data-v-6ad802b4>mukaddas.gulbaeva@ruzconsulting.com</a>
+                                        </div>
                                     </div>
                                     <div class="flex ai-c footer__item" data-v-6ad802b4><svg viewBox="0 0 491.86 491.86"
                                             width="16" height="16" style="transform: scaleX(-1); margin-top: -6px"
@@ -543,7 +555,7 @@
                                             Республика Таджикистан <br>
                                             734000 Душанбе
                                             5/5 Ул. Н.Мухаммад
-                                            233 офис, БЦ "Регус"                                            
+                                            233 офис, БЦ "Регус"
                                         </div>
                                     </div>
                                 </div>
@@ -551,8 +563,7 @@
                         </div>
                         <div class="footer__bottom" data-v-6ad802b4>
                             <div class="think" data-v-6ad802b4>
-                                <p class="think__descr left-animate" data-v-6ad802b4>Мы не решаем проблем – мы
-                                    их не допускаем!</p>
+                                <p class="think__descr left-animate" data-v-6ad802b4>Ваш груз — наша забота!</p>
                             </div>
                         </div>
                     </footer>
@@ -579,8 +590,17 @@
             </div>
         </div>
     </div>
-     <script>window._nuxt__ = (function (a) { return { layout: "default", data: [{ meta: { _id: "5db045ca80a5025a6b39f8f7", page: "index", title: "Услуги таможенного брокера, консультация и оформление - UbTrading", description: "⭐⭐⭐⭐⭐ Таможенно-брокерские услуги от UbTrading ✅ Таможенное оформление ⭐ Консультация таможенного брокера ✅ Растаможка авто.", keywords: "таможня, брокер", __v: 0 }, phones: [{ text: "+38 (093) 958 00 34", href: "tel:+380939580034" }] }], error: a, state: { error: a, currency: a, calculationError: a, auth: { token: a }, calculator: {}, category: {}, meta: {}, option: {}, post: {} }, serverRendered: true } }(null));</script>
-   <!-- <script src="nuxt/c450521b80a3aee021a2.js" defer></script>
+    <script>/* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+        function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }</script>
+    <script>window._nuxt__ = (function (a) { return { layout: "default", data: [{ meta: { _id: "5db045ca80a5025a6b39f8f7", page: "index", title: "Услуги таможенного брокера, консультация и оформление - UbTrading", description: "⭐⭐⭐⭐⭐ Таможенно-брокерские услуги от UbTrading ✅ Таможенное оформление ⭐ Консультация таможенного брокера ✅ Растаможка авто.", keywords: "таможня, брокер", __v: 0 }, phones: [{ text: "+38 (093) 958 00 34", href: "tel:+380939580034" }] }], error: a, state: { error: a, currency: a, calculationError: a, auth: { token: a }, calculator: {}, category: {}, meta: {}, option: {}, post: {} }, serverRendered: true } }(null));</script>
+    <!-- <script src="nuxt/c450521b80a3aee021a2.js" defer></script>
     <script src="nuxt/5593454fdb455137cf72.js" defer></script>
     <script src="nuxt/4267ea0d99848812cacf.js" defer></script>
     <script src="nuxt/8cf56c00804c8186d01a.js" defer></script>
