@@ -36,6 +36,7 @@
     <link rel="preload" href="nuxt/d69b1edeb876df78f065.js" as="script">
     <link rel="preload" href="nuxt/2ce922b4a979600d76f7.js" as="script">
     <link rel="preload" href="nuxt/8037cd48d461bac45bd3.js" as="script">
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="main.css">
 </head>
@@ -116,28 +117,31 @@
 
 
                                 <div class="flex ai-fs info" data-v-4ff4177a>
-                                    <div class="cons" data-v-4ff4177a><a href="#about" class="block pos-r btn"
+                                    <div class="cons" data-v-4ff4177a><a id="aboutNav" href="#about" class="block pos-r btn"
                                             style="margin-right: 0px" data-v-4ff4177a>
                                             О нас
                                         </a></div>
-                                    <div class="cons" data-v-4ff4177a><a href="#benefits" class="block pos-r btn"
+                                    <div class="cons" data-v-4ff4177a><a id="benefitsNav" href="#benefits" class="block pos-r btn"
                                             style="margin-right: 0px" data-v-4ff4177a>
                                             Преимущества
                                         </a></div>
-                                    <div class="cons" data-v-4ff4177a><a href="#services" class="block pos-r btn"
+                                    <div class="cons" data-v-4ff4177a><a id="servicesNav" href="#services" class="block pos-r btn"
                                             style="margin-right: 0px" data-v-4ff4177a>
                                             Услуги
                                         </a></div>
-                                    <div class="cons" data-v-4ff4177a><a href="#contacts" class="block btn"
+                                    <div class="cons" data-v-4ff4177a><a id="contactsNav" href="#contacts" class="block btn"
                                             data-v-4ff4177a>Контакты</a></div>
 
                                     <ul class="lang pos-r" data-v-4ff4177a>
-                                        <li data-v-4ff4177a><a href="#" data-v-4ff4177a>Ru</a>
-                                            <ul class="lang__dropdown pos-a" data-v-4ff4177a>
+                                        <li data-v-4ff4177a><a id="languageSwitch" href="#" onclick="setLanguage('en');" data-v-4ff4177a>En</a>
+                                            <!-- <ul class="lang__dropdown pos-a" data-v-4ff4177a>
                                                 <li data-v-4ff4177a><a href="#" data-v-4ff4177a>En</a></li>
-                                            </ul>
+                                            </ul> -->
                                         </li>
+                                      
                                     </ul>
+                                   
+                                   
 
 
                                     <div class="info__tel pos-r" data-v-4ff4177a>
@@ -166,18 +170,18 @@
                                 <div class="topnav">
                                     <!-- Navigation links (hidden by default) -->
                                     <div id="myLinks">
-                                        <a href="#about">О нас</a>
-                                        <a href="#benefits">Преимущества</a>
-                                        <a href="#services">Услуги</a>
-                                        <a href="#contacts">Контакты</a>
+                                        <a id="aboutNavMob" href="#about">О нас</a>
+                                        <a id="benefitsNavMob" href="#benefits">Преимущества</a>
+                                        <a id="servicesNavMob" href="#services">Услуги</a>
+                                        <a id="contactsNavMob" href="#contacts">Контакты</a>
                                     </div>
                                 </div>
                             </div>
 
                         </header>
                         <div class="title-wrap-tb w100" data-v-4ff4177a>
-                            <h1 data-v-4ff4177a>Таможенно-брокерские услуги</h1>
-                            <h2 data-v-4ff4177a>Грамотные решения для внешнеэкономической деятельности</h2>
+                            <h1 id="customsBrokerage" data-v-4ff4177a>Таможенно-брокерские услуги</h1>
+                            <h2 id="competentSolutions" data-v-4ff4177a>Грамотные решения для внешнеэкономической деятельности</h2>
                         </div>
                         <!-- <div class="cons-mobile flex jc-c" style="top: 70px" data-v-4ff4177a><button href="#"
                                 class="block pos-r btn" data-v-4ff4177a>
@@ -205,64 +209,58 @@
                         /* background-image: linear-gradient(180deg, #4e3f42, #000); */
                         background-size: cover" data-v-8a515bfa>
                             <section class="problems " data-v-8a515bfa>
-                                <div class="white-text" data-v-8a515bfa>Возможные проблемы при таможенном оформлении
+                                <div class="white-text" id="customsProblems" data-v-8a515bfa>Возможные проблемы при таможенном оформлении
                                 </div>
                                 <div class="questions" data-v-8a515bfa>
                                     <div data-depth="0.05" class="questions__list-wrap" data-v-8a515bfa>
                                         <ul class="questions__list" id="problems-list" data-v-8a515bfa>
-                                            <li data-v-8a515bfa>Протокол о нарушении таможенных правил</li>
-                                            <li data-v-8a515bfa>Затраты при простое транспорта
-                                            </li>
-                                            <li data-v-8a515bfa>Коррупция</li>
-                                            <li data-v-8a515bfa>Необоснованное повышение таможенной стоимости</li>
-                                            <li data-v-8a515bfa>Изменение кода товара
-                                            </li>
+                                            <li id="problemsProtocol" data-v-8a515bfa>Протокол о нарушении таможенных правил</li>
+                                            <li id="transportDowntime" data-v-8a515bfa>Затраты при простое транспорта</li>
+                                            <li id="corruption" data-v-8a515bfa>Коррупция</li>
+                                            <li id="increaseCustomsValue" data-v-8a515bfa>Необоснованное повышение таможенной стоимости</li>
+                                            <li id="codeChange" data-v-8a515bfa>Изменение кода товара</li>
                                         </ul>
                                     </div>
                                     <div data-depth="0.15" class="questions__list-wrap" data-v-8a515bfa>
                                         <ul class="questions__list text-bg-left" data-v-8a515bfa>
-                                            <li data-v-8a515bfa>Протокол о нарушении таможенных правил</li>
-                                            <li data-v-8a515bfa>Затраты при простое транспорта
-                                            </li>
-                                            <li data-v-8a515bfa>Коррупция</li>
-                                            <li data-v-8a515bfa>Необоснованное повышение таможенной стоимости</li>
-                                            <li data-v-8a515bfa>Изменение кода товара
-                                            </li>
+                                            <li id="problemsProtocol1" data-v-8a515bfa>Протокол о нарушении таможенных правил</li>
+                                            <li id="transportDowntime1" data-v-8a515bfa>Затраты при простое транспорта</li>
+                                            <li id="corruption1" data-v-8a515bfa>Коррупция</li>
+                                            <li id="increaseCustomsValue1" data-v-8a515bfa>Необоснованное повышение таможенной стоимости</li>
+                                            <li id="codeChange1" data-v-8a515bfa>Изменение кода товара</li>
                                         </ul>
                                     </div>
                                     <div data-depth="0.25" class="questions__list-wrap" data-v-8a515bfa>
                                         <ul class="questions__list text-bg-right" data-v-8a515bfa>
-                                            <li data-v-8a515bfa>Протокол о нарушении таможенных правил</li>
-                                            <li data-v-8a515bfa>Затраты при простое транспорта
-                                            </li>
-                                            <li data-v-8a515bfa>Коррупция</li>
-                                            <li data-v-8a515bfa>Необоснованное повышение таможенной стоимости</li>
-                                            <li data-v-8a515bfa>Изменение кода товара
-                                            </li>
+                                            <li id="problemsProtocol2" data-v-8a515bfa>Протокол о нарушении таможенных правил</li>
+                                            <li id="transportDowntime2" data-v-8a515bfa>Затраты при простое транспорта</li>
+                                            <li id="corruption2" data-v-8a515bfa>Коррупция</li>
+                                            <li id="increaseCustomsValue2" data-v-8a515bfa>Необоснованное повышение таможенной стоимости</li>
+                                            <li id="codeChange2" data-v-8a515bfa>Изменение кода товара</li>
                                         </ul>
                                     </div>
                                 </div>
-                                <div class="white-text text-right" data-v-8a515bfa>Хотите этого избежать?</div>
+                                <div id="avoidThis" class="white-text text-right" data-v-8a515bfa>Хотите этого избежать?</div>
                             </section>
                         </div>
                         <section id="about" class="about" data-v-78221eef data-v-8a515bfa data-v-8a515bfa>
                             <div class="container flex jc-sb pos-r ai-fs fd-c-sm" data-v-78221eef>
                                 <div class="about__title about__title-USA pos-r c-after" data-v-78221eef>
-                                    <p class="left-animate" data-v-78221eef>О нас</p> <svg height="10"
+                                    <p id="aboutSection" class="left-animate" data-v-78221eef>О нас</p> <svg height="10"
                                         class="svg-animate pos-a" data-v-78221eef>
                                         <line x1="0" y1="5" x2="100%" y2="5" stroke-width="9" stroke="#0d47a1"
                                             data-v-78221eef></line>
                                     </svg>
                                 </div>
                                 <div class="about__description pos-r" data-v-78221eef>
-                                    <p data-v-78221eef>Руз Консалтинг – это команда профессионалов с большим опытом
+                                    <p id="about1" data-v-78221eef>Руз Консалтинг – это команда профессионалов с большим опытом
                                         работы в внешнеэкономической деятельности.</p>
-                                    <p data-v-78221eef>Мы знаем все о таможенном оформлении любых товаров и транспортных
+                                    <p id="about2" data-v-78221eef>Мы знаем все о таможенном оформлении любых товаров и транспортных
                                         средств. </p>
-                                    <p data-v-78221eef>За счет большого опыта работы наших специалистов, мы знаем все
+                                    <p id="about3" data-v-78221eef>За счет большого опыта работы наших специалистов, мы знаем все
                                         особенности работы таможенных органов и оперативно отслеживаем изменения
                                         законодательств разных стран.</p>
-                                    <p data-v-78221eef>А все для того, чтобы предоставлять качественные услуги вам здесь
+                                    <p id="about4" data-v-78221eef>А все для того, чтобы предоставлять качественные услуги вам здесь
                                         и сейчас</p>
                                     <svg width="62" height="250" class="svg-animate pos-a" data-v-78221eef>
                                         <line x1="0" y1="5" x2="100%" y2="5" stroke-width="9" stroke="#0d47a1"
@@ -278,10 +276,10 @@
                                 data-v-6f2f2796>
                                 <div class="container" data-v-6f2f2796>
                                     <div class="why__title" data-v-6f2f2796>
-                                        <div class="why__title-main left-animate" data-v-6f2f2796>Преимущества
+                                        <div id="benefitsSection1" class="why__title-main left-animate" data-v-6f2f2796>Преимущества
 
                                         </div>
-                                        <div class="pos-r why__sub-title right-animate" data-v-6f2f2796>работы с нами
+                                        <div id="benefitsSection2" class="pos-r why__sub-title right-animate" data-v-6f2f2796>работы с нами
                                             <svg height="6" class="svg-animate pos-a animate" data-v-6f2f2796>
                                                 <line x1="0" y1="3" x2="100%" y2="3" stroke-width="6" stroke="white"
                                                     data-v-6f2f2796></line>
@@ -294,7 +292,7 @@
                                                 <div class="why__img-wrap" data-v-6f2f2796><img src="images/why-2.png"
                                                         alt="icon" data-v-6f2f2796></div>
                                             </div>
-                                            <p class="why__about" data-v-6f2f2796>Более 15 лет опыта
+                                            <p id="benefit1" class="why__about" data-v-6f2f2796>Более 15 лет опыта
                                             </p>
                                         </div>
                                         <div class="why__item flex ai-c w33 w50-md w100-sm" data-v-6f2f2796>
@@ -302,7 +300,7 @@
                                                 <div class="why__img-wrap" data-v-6f2f2796><img src="images/why-4.png"
                                                         alt="icon" data-v-6f2f2796></div>
                                             </div>
-                                            <p class="why__about" data-v-6f2f2796>Принимаем оплату услуг после
+                                            <p id="benefit2" class="why__about" data-v-6f2f2796>Принимаем оплату услуг после
                                                 качественного их выполнения
                                             </p>
                                         </div>
@@ -311,7 +309,7 @@
                                                 <div class="why__img-wrap" data-v-6f2f2796><img src="images/why-1.png"
                                                         alt="icon" data-v-6f2f2796></div>
                                             </div>
-                                            <p class="why__about" data-v-6f2f2796>Представляем ваши интересы на всех
+                                            <p id="benefit3" class="why__about" data-v-6f2f2796>Представляем ваши интересы на всех
                                                 этапах работы
                                             </p>
                                         </div>
@@ -320,7 +318,7 @@
                                                 <div class="why__img-wrap" data-v-6f2f2796><img src="images/why-3.png"
                                                         alt="icon" data-v-6f2f2796></div>
                                             </div>
-                                            <p class="why__about" data-v-6f2f2796>Оформляем любые товары «под ключ»
+                                            <p id="benefit4" class="why__about" data-v-6f2f2796>Оформляем любые товары «под ключ»
                                             </p>
                                         </div>
                                         <div class="why__item flex ai-c w33 w50-md w100-sm" data-v-6f2f2796>
@@ -328,7 +326,7 @@
                                                 <div class="why__img-wrap" data-v-6f2f2796><img src="images/why-7.png"
                                                         alt="icon" data-v-6f2f2796></div>
                                             </div>
-                                            <p class="why__about" data-v-6f2f2796>Предлагаем выгодные условия постоянным
+                                            <p id="benefit5" class="why__about" data-v-6f2f2796>Предлагаем выгодные условия постоянным
                                                 клиентам
                                             </p>
                                         </div>
@@ -337,7 +335,7 @@
                                                 <div class="why__img-wrap" data-v-6f2f2796><img src="images/why-5.png"
                                                         alt="icon" data-v-6f2f2796></div>
                                             </div>
-                                            <p class="why__about" data-v-6f2f2796>Доступная цена
+                                            <p id="benefit6" class="why__about" data-v-6f2f2796>Доступная цена
                                             </p>
                                         </div>
                                         <div class="why__item flex ai-c w33 w50-md w100-sm" data-v-6f2f2796>
@@ -345,7 +343,7 @@
                                                 <div class="why__img-wrap" data-v-6f2f2796><img src="images/why-6.png"
                                                         alt="icon" data-v-6f2f2796></div>
                                             </div>
-                                            <p class="why__about" data-v-6f2f2796>Поможем в оптимизации налогообложения
+                                            <p id="benefit7" class="why__about" data-v-6f2f2796>Поможем в оптимизации налогообложения
                                             </p>
                                         </div>
                                     </div>
@@ -358,9 +356,9 @@
                         <section id="services" class="what pos-r" data-v-8a515bfa>
                             <div class="container" data-v-8a515bfa>
                                 <div class="what__title pos-r c-after" data-v-8a515bfa>
-                                    <p class=" left-animate" data-v-8a515bfa>Что</p>
-                                    <p class="what__title_large  right-animate" data-v-8a515bfa>входит</p>
-                                    <p class="what__title_last  left-animate" data-v-8a515bfa>в услугу?</p> <svg
+                                    <p id="sevicesSection1" class=" left-animate" data-v-8a515bfa>Что</p>
+                                    <p id="sevicesSection2" class="what__title_large  right-animate" data-v-8a515bfa>входит</p>
+                                    <p id="sevicesSection3" class="what__title_last  left-animate" data-v-8a515bfa>в услугу?</p> <svg
                                         class="svg-animate  pos-a" data-v-8a515bfa>
                                         <line x1="0" y1="5" x2="100%" y2="5" stroke-width="9" stroke="#0d47a1"
                                             data-v-8a515bfa></line>
@@ -374,13 +372,13 @@
                                     <div class="flex fw-w jc-sa" data-v-8a515bfa>
                                         <div class="what__item what__item-tb pos-r c-after w33 w50-md w100-esm"
                                             data-v-8a515bfa>
-                                            <p data-v-8a515bfa>Консультации по любым вопросам таможенного оформления и
+                                            <p id="services1" data-v-8a515bfa>Консультации по любым вопросам таможенного оформления и
                                                 оптимизации налогообложения
                                             </p>
                                         </div>
                                         <div class="what__item what__item-tb pos-r c-after w33 w50-md w100-esm"
                                             data-v-8a515bfa>
-                                            <p data-v-8a515bfa>Получением всех необходимых документов от контролирующих
+                                            <p id="services2" data-v-8a515bfa>Получением всех необходимых документов от контролирующих
                                                 органов
                                             </p>
                                         </div>
@@ -391,17 +389,17 @@
                                         </div>
                                         <div class="what__item what__item-tb pos-r c-after w33 w50-md w100-esm"
                                             data-v-8a515bfa>
-                                            <p data-v-8a515bfa>Классификация товаров
+                                            <p id="services3" data-v-8a515bfa>Классификация товаров
                                             </p>
                                         </div>
                                         <div class="what__item what__item-tb pos-r c-after w33 w50-md w100-esm"
                                             data-v-8a515bfa>
-                                            <p data-v-8a515bfa>Декларирование ваших товаров таможенным органам
+                                            <p id="services4" data-v-8a515bfa>Декларирование ваших товаров таможенным органам
                                             </p>
                                         </div>
                                         <div class="what__item what__item-tb pos-r c-after w33 w50-md w100-esm"
                                             data-v-8a515bfa>
-                                            <p data-v-8a515bfa>Представление ваших интересов на всех этапах таможенного
+                                            <p id="services5" data-v-8a515bfa>Представление ваших интересов на всех этапах таможенного
                                                 оформления
                                             </p>
                                         </div>
@@ -412,9 +410,9 @@
                         <section class="work" data-v-8a515bfa>
                             <div class="container work__title-wrap pos-r" data-v-8a515bfa>
                                 <div class="work__title pos-r c-after" data-v-8a515bfa>
-                                    <p class=" left-animate" data-v-8a515bfa>
+                                    <p id="processesSection1" class=" left-animate" data-v-8a515bfa>
                                         Процесс </p>
-                                    <div class=" right-animate" data-v-8a515bfa>работы</div> <svg
+                                    <div id="processesSection2"  class=" right-animate" data-v-8a515bfa>работы</div> <svg
                                         class="svg-animate  pos-a" data-v-8a515bfa>
                                         <line x1="0" y1="5" x2="100%" y2="5" stroke-width="9" stroke="#0d47a1"
                                             data-v-8a515bfa></line>
@@ -426,35 +424,35 @@
                             <div class="work__block pos-r c-before c-after bl-block-tb " data-v-8a515bfa>
                                 <div class="container flex fw-w jc-sa ai-fs pos-r" data-v-8a515bfa>
                                     <div class="work__item flex w35 w50-md w100-sm pos-r" data-v-8a515bfa>
-                                        <div class="work__num" data-v-8a515bfa>
+                                        <div id="processesStep1" class="work__num" data-v-8a515bfa>
                                             Шаг 1
                                         </div>
-                                        <p class="work__about" data-v-8a515bfa>
+                                        <p id="processesStep1d" class="work__about" data-v-8a515bfa>
                                             Заключаем договор на оказание услуг и получаем документы на груз
                                         </p>
                                     </div>
                                     <div class="work__item flex w35 w50-md w100-sm pos-r" data-v-8a515bfa>
-                                        <div class="work__num" data-v-8a515bfa>
+                                        <div id="processesStep2" class="work__num" data-v-8a515bfa>
                                             Шаг 2
                                         </div>
-                                        <p class="work__about" data-v-8a515bfa>
+                                        <p id="processesStep2d" class="work__about" data-v-8a515bfa>
                                             Анализируем документы и определяем меры тарифного и нетарифного
                                             регулирования
                                         </p>
                                     </div>
                                     <div class="work__item flex w35 w50-md w100-sm pos-r" data-v-8a515bfa>
-                                        <div class="work__num" data-v-8a515bfa>
+                                        <div id="processesStep3" class="work__num" data-v-8a515bfa>
                                             Шаг 3
                                         </div>
-                                        <p class="work__about" data-v-8a515bfa>
+                                        <p id="processesStep3d" class="work__about" data-v-8a515bfa>
                                             Получаем разрешительные документы от других контролирующих органов
                                         </p>
                                     </div>
                                     <div class="work__item flex w35 w50-md w100-sm pos-r" data-v-8a515bfa>
-                                        <div class="work__num" data-v-8a515bfa>
+                                        <div id="processesStep4" class="work__num" data-v-8a515bfa>
                                             Шаг 4
                                         </div>
-                                        <p class="work__about" data-v-8a515bfa>
+                                        <p id="processesStep4d" class="work__about" data-v-8a515bfa>
                                             Оформляем груз
                                         </p>
                                     </div>
@@ -477,8 +475,8 @@
                             </svg>
                             <div class="help__container pos-r c-after c-before blak-block " data-v-6a87e8fa>
                                 <div class="help__wrap" data-v-6a87e8fa>
-                                    <div class="help__title" data-v-6a87e8fa>Нужен надежный таможенный брокер?</div> <a
-                                        href="#" class="inl-block btn t-center" data-v-6a87e8fa>Руз Консалтинг всегда
+                                    <div id="needABroker" class="help__title" data-v-6a87e8fa>Нужен надежный таможенный брокер?</div> <a
+                                       id="ruzHappyToHelp" href="#" class="inl-block btn t-center" data-v-6a87e8fa>Руз Консалтинг всегда
                                         рад помочь!</a>
                                 </div>
                             </div> <img alt="consultation" data-src="images/new-success.jpg" src="images/new-cars.jpg"
@@ -490,12 +488,12 @@
                         <!---->
                         <!---->
                         <div class="flex jc-sb footer__top fd-cr-sm ai-c-sm" data-v-6ad802b4>
-                            <div class="footer__logo" data-v-6ad802b4>Ⓒ Руз Консалтинг</div>
+                            <div id="copyrightRuz" class="footer__logo" data-v-6ad802b4>Ⓒ Руз Консалтинг</div>
                             <div class="footer__reestr" data-v-6ad802b4>
                                 <a href="/" class="logo block nuxt-link-exact-active nuxt-link-active"
                                     data-v-4ff4177a><img src="images/logo.png" alt="logo" height="60"
                                         data-v-4ff4177a></a>
-                                <p data-v-6ad802b4>ООО “Руз Консалтинг”
+                                <p id="llcRuz" data-v-6ad802b4>ООО “Руз Консалтинг”
 
                                 </p>
                             </div>
@@ -554,7 +552,7 @@
             h105.968c0.829,0,1.5-0.671,1.5-1.5v-17.145C205.034,177.825,204.363,177.154,203.534,177.154z"
                                                 data-v-6ad802b4></path>
                                         </svg>
-                                        <div data-v-6ad802b4>
+                                        <div id="adressRuz" data-v-6ad802b4>
                                             Республика Таджикистан <br>
                                             734000 Душанбе
                                             5/5 Ул. Н.Мухаммад
@@ -566,7 +564,7 @@
                         </div>
                         <div class="footer__bottom" data-v-6ad802b4>
                             <div class="think" data-v-6ad802b4>
-                                <p class="think__descr left-animate" data-v-6ad802b4>Ваш груз — наша забота!</p>
+                                <p id="yourCargo" class="think__descr left-animate" data-v-6ad802b4>Ваш груз — наша забота!</p>
                             </div>
                         </div>
                     </footer>
@@ -593,6 +591,7 @@
             </div>
         </div>
     </div>
+    <script type="text/javascript" src="js/translation.js"></script>
     <script>/* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
         function myFunction() {
             var x = document.getElementById("myLinks");
