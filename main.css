@@ -980,7 +980,7 @@
 
         .what__title_large {
             color: #ada3a5;
-            font-size: 70px;
+            font-size: 50px;
             margin-left: 20px
         }
 
@@ -3012,8 +3012,8 @@
 
         .about__title svg[data-v-78221eef] {
             top: 20px;
-            left: 195px;
-            width: 600px
+            left: 290px;
+            width: 500px
         }
 
         .about__description[data-v-78221eef] {
@@ -3929,6 +3929,10 @@
     background-color: #04AA6D;
     color: white;
   }
+  #myLinks {
+    width: 140px;
+    overflow: hidden;
+  }
 
   #navigation-burger {
     position: absolute;
@@ -3936,7 +3940,7 @@
     top: 68%;
     height: 215px;
     right: 0;
-    left: 67%;
+    left: 62%;
     text-align: center;
     text-shadow: 0 0 60px #000;
   }

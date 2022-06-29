@@ -65,6 +65,7 @@ app.translations = {
     services3: "Goods classification",
     services4: "Declaring your goods to customs authorities",
     services5: "Representation of your interests at all stages of customs clearance",
+    services6: "Calculation of customs payments",
 
     processesSection1: "Work",
     processesSection2: "Process",
@@ -149,6 +150,7 @@ app.translations = {
     services3: "Классификация товаров",
     services4: "Декларирование ваших товаров таможенным органам",
     services5: "Представление ваших интересов на всех этапах таможенного оформления",
+    services6: "Расчет таможенных платежей",
 
     processesSection1: "Процесс",
     processesSection2: "работы",
